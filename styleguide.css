@@ -1,0 +1,21 @@
+:root {
+  --main-color: rgba(102, 46, 143, 1);
+  --35-font-family: "CoHeadline-Bold", Helvetica;
+  --35-font-weight: 700;
+  --35-font-size: 35px;
+  --35-letter-spacing: 0px;
+  --35-line-height: 33px;
+  --35-font-style: normal;
+  --tabs-style-font-family: "CoText-Regular", Helvetica;
+  --tabs-style-font-weight: 400;
+  --tabs-style-font-size: 16px;
+  --tabs-style-letter-spacing: 0px;
+  --tabs-style-line-height: 15px;
+  --tabs-style-font-style: normal;
+  --co-text-regual-16-font-family: "CoText-Regular", Helvetica;
+  --co-text-regual-16-font-weight: 400;
+  --co-text-regual-16-font-size: 16px;
+  --co-text-regual-16-letter-spacing: 0px;
+  --co-text-regual-16-line-height: 20px;
+  --co-text-regual-16-font-style: normal;
+}

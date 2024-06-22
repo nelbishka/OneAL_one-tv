@@ -1,0 +1,44 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Co Headline-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5bed49381ec0b6000bf10705/CoHeadline_Bd.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Co Text-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5dae057bcef7000ba45f44/.9732.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Co Text -Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5eaf00f0a6be4a89f30c4a98/.9733.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Co Text -Light";
+  src: url("https://anima-uploads.s3.amazonaws.com/5bdc699c2d434c000d008b87/Dalton Maag - Co Text Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Co Text-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5eaf00f0a6be4a89f30c4a98/.9733.otf") format("opentype");
+}

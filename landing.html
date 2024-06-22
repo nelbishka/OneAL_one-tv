@@ -1,0 +1,893 @@
+<html lang="en">
+
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-6TY3CHDX0C&amp;cx=c&amp;_slc=1"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-25P5WXJHVQ&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/destination?id=G-25P5WXJHVQ&amp;l=dataLayer&amp;cx=c"></script>
+    <script async=""
+        src="https://www.googletagmanager.com/gtm.js?id=GTM-N3PKDL6&amp;gtm_auth=&amp;gtm_preview=&amp;gtm_cookies_win=x"></script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js', });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=&gtm_preview=&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N3PKDL6');</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ "event": "navigation_view", "page_path": "/", "page_name": "HOMEPAGE", "page_profile": "DEP" })</script>
+    <style>
+        body {
+            transition: opacity ease-in 0.2s;
+        }
+
+        body[unresolved] {
+            opacity: 0;
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+    </style>
+    <meta charset="utf-8">
+    
+    <link rel="icon" href="https://www.one.al/public_portal/react/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="">
+    <!--meta name="robots" content="index, follow"-->
+    <link rel="apple-touch-icon" href="/public_portal/react/dist/images/newlogo-tal.svg">
+    <link rel="manifest" href="https://www.one.al/public_portal/react/manifest.json">
+    <link rel="stylesheet" href="https://www.one.al/public_portal/react/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.one.al/public_portal/react/dist/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://www.one.al/public_portal/react/dist/css/icofont.min.css">
+    <link rel="stylesheet" href="https://www.one.al/public_portal/react/dist/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.one.al/public_portal/react/dist/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>One Albania</title>
+    <link href="https://www.one.al/public_portal/react/static/css/2.5670f507.chunk.css" rel="stylesheet">
+    <link href="https://www.one.al/public_portal/react/static/css/main.f24d4c3d.chunk.css" rel="stylesheet">
+    <script
+        src="https://connect.facebook.net/signals/config/372962472077128?v=2.9.142&amp;r=stable&amp;domain=www.one.al&amp;hme=e82209ddce2f5ef9f00773b102465283e977acad712d554991b839c35823b905&amp;ex_m=62%2C103%2C91%2C95%2C53%2C3%2C87%2C61%2C14%2C85%2C78%2C44%2C46%2C145%2C148%2C159%2C155%2C156%2C158%2C25%2C88%2C45%2C68%2C157%2C140%2C143%2C152%2C153%2C160%2C112%2C13%2C43%2C164%2C163%2C114%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C82%2C15%2C12%2C84%2C81%2C80%2C92%2C94%2C31%2C93%2C26%2C22%2C141%2C144%2C121%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C89%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C17%2C4%2C73%2C79%2C72%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C83%2C75%2C2%2C30%2C55%2C34%2C90%2C38%2C70%2C60%2C40%2C39%2C96%2C52%2C51%2C27%2C86%2C50%2C47%2C42%2C69%2C64%2C97"
+        async=""></script>
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script>
+    <script src="https://livechatv2.chat2desk.com/packs/ie-11-support.js"></script>
+    <script>
+        !(function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod
+                    ? n.callMethod.apply(n, arguments)
+                    : n.queue.push(arguments);
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = "2.0";
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s);
+        })(
+            window,
+            document,
+            "script",
+            "https://connect.facebook.net/en_US/fbevents.js"
+        );
+        fbq("init", "372962472077128");
+        fbq("track", "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src=https://www.facebook.com/tr?id=372962472077128&ev=PageView&noscript=1 /></noscript>
+    <style data-emotion="css"></style>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script>
+    <script>
+        
+        window.addEventListener("DOMContentLoaded", function() {
+        const faqElements = document.getElementsByClassName("nebula-faq");
+
+        Array.from(faqElements).forEach(questionElement => questionElement.addEventListener('click', function() {
+            const answerElem = this.querySelector('.nebula-answer');
+            const iconElem = this.querySelector('.nebula-icon')
+
+            if (answerElem.classList.contains("d-none")) {
+                answerElem.classList.remove("d-none");
+                iconElem.className = 'nebula-icon'
+            } else {
+                answerElem.classList.add("d-none")
+                iconElem.className = 'fa-regular fa-plus pl-2 nebula-icon'
+            }
+        }, false))
+        })
+    </script>
+</head>
+
+<body><noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3PKDL6&gtm_auth=&gtm_preview=&gtm_cookies_win=x"
+            height="0" width="0" style="display:none;visibility:hidden" id="tag-manager"></iframe></noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header>
+        <div class="header-top d-flex">
+            <a class="navbar-brand m-0 p-0" href="/">
+                <img title="" alt="" class="img-fluid" src="https://www.one.al/public_portal/react/dist/images/newlogo-tal.svg">
+            </a>
+
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center header-top-inner">
+                    <div class="d-flex align-items-center">
+                        <div class="top-nav d-none d-lg-block">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href="/">Individ</a>
+                                </li>
+                                <li>
+                                    <a href="/business">Biznes</a>
+                                </li>
+                                <li>
+                                    <a href="/company">Kompania</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <form class="header-search">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img title="" alt="" class="img-fluid"
+                                            src="https://www.one.al/public_portal/react/dist/images/search.svg">
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroup"
+                                    placeholder="What are you looking for?">
+                            </div>
+                        </form>
+                        <div class="headerLang pl-1 pl-md-3 pl-xl-5">
+                            <a id="english" href="javascript:void(0)" class=""> En </a>
+                            <a id="albanian" href="javascript:void(0)" class="active">Al</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="menu">
+        <div class="main-menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg justify-content-between align-items-center">
+                    <div><button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation"><i class="icofont-navigation-menu"></i></button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://onemag.one.al/edicioni4/">Oferte</a><i id="icon-313"
+                                        class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-313" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink"></ul>
+                                </li>
+
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/One%20Unlimited%20Packages/addon/PAKETAT_ONE_UNLIMITED">Mobile</a><i
+                                        id="icon-1" class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-1" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li class="dropdown-submenu"><a class="nav-link"
+                                                href="https://www.one.al/eshop/listing/MOBILE/Prepaid/One%20Unlimited%20Packages/addon/PAKETAT_ONE_UNLIMITED">Me
+                                                Parapagesë</a><i id="icon-268" class="icofont-rounded-down"></i>
+                                            <ul id="menu-drop-down-268" class="menu-drop-down">
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/ One Packages/addon/CTG1685351084669">Paketat
+                                                        One</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/Addon Packages/addon/Paketat_Shtese">Paketat
+                                                        Shtese</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/Tourist Pack Package/addon/PAKETAT_TOURIST_PACK">Paketa
+                                                        Turist</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/Other Packages/addon/PAKETA_TE_TJERA">Paketa
+                                                        të tjera</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Prepaid/One Unlimited Packages/addon/PAKETAT_ONE_UNLIMITED">Paketa
+                                                        të tjera me parapagesë</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu"><a class="nav-link"
+                                                href="https://www.one.al/eshop/listing/MOBILE/Postpaid/One%20Plans/plan/CTG1694512854590">Me
+                                                Kontratë</a><i id="icon-271" class="icofont-rounded-down"></i>
+                                            <ul id="menu-drop-down-271" class="menu-drop-down">
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Postpaid/One Plans/plan/CTG1694512854590">Planet
+                                                        One</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Postpaid/ One Ultra Plans/plan/CTG1695637424766">Planet
+                                                        One Ultra</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Postpaid/Addon Packages/addon/CTG1687426395284">Paketat
+                                                        Shtese</a></li>
+                                                <li><a class="nav-link" href="/student">Planet Student</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Postpaid/Internet Plans/plan/PLANE_INTERNETI">Plane
+                                                        Interneti</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu"><a class="nav-link"
+                                                href="https://www.one.al/One_Roaming">Roaming</a><i id="icon-259"
+                                                class="icofont-rounded-down"></i>
+                                            <ul id="menu-drop-down-259" class="menu-drop-down">
+                                                <li><a class="nav-link" href="https://www.one.al/One_Roaming">One Roaming</a></li>
+                                                <li><a class="nav-link" href="https://www.one.al/Roaming_Ballkani_Perendimor">Roaming
+                                                        Ballkani Perëndimor</a></li>
+                                                <li><a class="nav-link"
+                                                        href="https://www.one.al/eshop/listing/MOBILE/Roaming/Roaming Packages/addon/PAKETA_ROAMING">Paketat
+                                                        Roaming</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item drop-down"><a class="nav-link" href="https://www.one.al/One_Ultra_Fiber">Internet
+                                        &amp; IPTV</a><i id="icon-325" class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-325" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="nav-link " href="https://www.one.al/one-tv">One TV</a></li>
+                                        <li><a class="nav-link " href="https://promo.one.al/mixnmax">Mix &amp; Max</a>
+                                        </li>
+                                        <li><a class="nav-link " href="https://www.one.al/One_HomeNet">One HomeNet</a></li>
+                                        <li><a class="nav-link " href="https://www.one.al/Home_Net_TV">One HomeNet TV</a></li>
+                                        <li class="dropdown-submenu"><a class="nav-link" href="https://www.one.al/One_Ultra_Fiber">One
+                                                Ultra Fiber</a><i id="icon-328" class="icofont-rounded-down"></i>
+                                            <ul id="menu-drop-down-328" class="menu-drop-down">
+                                                <li><a class="nav-link" href="https://www.one.al/ONE_Ultra_Fiber">One Ultra Fiber</a></li>
+                                                <li><a class="nav-link" href="https://www.one.al/One_Fiber_Student">One Fiber Student</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://onemag.one.al/edicioni4/">One Super Familja</a><i id="icon-313"
+                                        class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-313" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink"></ul>
+                                </li>
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://onemag.one.al/edicioni4/">One Fix</a><i id="icon-313"
+                                        class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-313" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink"></ul>
+                                </li>
+
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://www.one.al/eshop/listing/DEVICE/Phones/handset/TELEFONA">E-Shop</a><i
+                                        id="icon-7" class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-7" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="nav-link "
+                                                href="https://www.one.al/eshop/listing/DEVICE/Phones/handset/TELEFONA">Telefona</a></li>
+                                        <li><a class="nav-link "
+                                                href="https://www.one.al/eshop/listing/E-SHOP/Smart Watches/device/SMART_WATCH">Smart
+                                                Watches</a></li>
+                                        <li><a class="nav-link " href="https://www.one.al/Trade_and_Upgrade">Trade &amp; Upgrade</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://www.one.al/Kujdesi_ndaj_Klientit">Kujdesi ndaj klientit</a><i
+                                        id="icon-238" class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-238" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="nav-link " href="https://www.one.al/Kujdesi_ndaj_Klientit">Kujdesi ndaj klientit</a>
+                                        </li>
+                                        <li class="dropdown-submenu"><a class="nav-link" href="https://www.one.al/My_One">Aplikacione
+                                                &amp; Shërbime</a><i id="icon-244" class="icofont-rounded-down"></i>
+                                            <ul id="menu-drop-down-244" class="menu-drop-down">
+                                                <li><a class="nav-link" href="https://www.one.al/My_One">My One</a></li>
+                                                <li><a class="nav-link" href="https://www.one.al/Sherbime">Shërbime</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="nav-link " href="https://www.one.al/Aftesi_te_vecanta">Aftësi të veçanta</a></li>
+                                        <li><a class="nav-link " href="https://www.one.al/Numer_i_Ri">Numër i ri</a></li>
+                                        <li><a class="nav-link "
+                                                href="https://www.one.al/Company/KOMPANIA/Informacione_Ligjore/Ofrimi_i_sherbimeve">Trajtimi
+                                                i Ankesave</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item drop-down"><a class="nav-link"
+                                        href="https://onemag.one.al/edicioni4/">One Mag</a><i id="icon-313"
+                                        class="icofont-rounded-down"></i>
+                                    <ul id="menu-drop-down-313" class="menu-drop-down"
+                                        aria-labelledby="navbarDropdownMenuLink"></ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="login-img"><button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavLogo" aria-controls="navbarNavLogo" aria-expanded="false"
+                                aria-label="Toggle navigation"><img class="img-fluid"
+                                    src="https://www.one.al/public_portal/react/static/media/user.4f4fe8fa.svg" alt=""></button>
+                            <div class="collapse navbar-collapse" id="navbarNavLogo">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item drop-down"><img class="img-fluid"
+                                            src="https://www.one.al/public_portal/react/static/media/user.4f4fe8fa.svg" alt="">
+                                        <ul id="menu-drop-down-logo" class="menu-drop-down"
+                                            aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="nav-link " href="https://www.one.al/selfcare/login">My One Mobile</a></li>
+                                            <li><a class="nav-link "
+                                                    href="https://www.albtelecom.al/al/profili-im-fiks/">My One Fiks</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cart-icon"><a href="#" data-toggle="modal" data-target="#cartModal"><i
+                                    class="icofont-cart-alt"></i><span>0</span></a></div>
+                        <div class="store-locator"><a href="https://www.one.al/eshop/stores"><img class="img-fluid"
+                                    src="https://www.one.al/public_portal/react/static/media/location.b71b620c.svg" width="23" alt=""></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--This section is for corousel images-->
+    <section>
+        <div class="homeSlider owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+                <div class="owl-stage"
+                    style="transform: translate3d(-7620px, 0px, 0px); transition: all 0.25s ease 0s; width: 20955px;">
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/one-tv">
+                                <img class="img-fluid"
+                                    src="https://www2.one.al/sites/default/documents/files/2023-10/1140x280%20al.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/one-tv">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-10/546667048-1920x600.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/One_Roaming">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-10/roaming%20v1%20(1).png"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/Seria_ne_OneTV">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-11/557281590-1920x600.jpg"
+                                    alt="Third slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://preorder.one.al/">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2024-01/New-Samsung-Galaxy_carousel-banner (1).png"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item active" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://promo.one.al/dhurataperty">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2024-01/sq-1920x600.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/one-tv">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-10/546667048-1920x600.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/One_Roaming">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-10/roaming%20v1%20(1).png"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/Seria_ne_OneTV">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-11/557281590-1920x600.jpg"
+                                    alt="Third slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://preorder.one.al/">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2024-01/New-Samsung-Galaxy_carousel-banner (1).png"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://promo.one.al/dhurataperty">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2024-01/sq-1920x600.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item cloned" style="width: 1905px;">
+                        <div class="item">
+                            <a href="https://www.one.al/one-tv">
+                                <img class="img-fluid"
+                                    src="https://www.one.al/sites/default/documents/files/2023-10/546667048-1920x600.jpg"
+                                    alt="First slide">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span
+                        aria-label="Previous">‹</span></button><button type="button" role="presentation"
+                    class="owl-next"><span aria-label="Next">›</span></button></div>
+            <div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot active"><span></span></button><button role="button"
+                    class="owl-dot"><span></span></button><button role="button"
+                    class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4 my-md-3 py-lg-5 my-lg-5 text-center main-text">
+        <div class="container">
+            <h1 class="text-bold mb-2 mb-md-4 homepage-title">
+                One TV
+            </h1>
+            <p class="text-bold">
+                One TV bën bashkë programet TV më të dashura për ty, me sherbimin TV “tërësisht të ri”. <br>Falë dekoderit Android Box që bën TV tuaj Smart, tani do të mund të shijosh filma, seriale, <br>apo argëtim për femijë, përmes një përvojë më të mirë dhe më emocionuese.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-4 my-md-3 py-lg-5 my-lg-5">
+        <div class="container icons">
+            <div class="row text-center mb-4">
+                <div class="col-4">
+                    <img src="./img/icon1.jpg" alt="">
+                    <h2 class="my-4">Faqe e personalizuar</h2>
+                    <p>Një ndërfaqje e re Android për të siguruar që përmbajtja e preferuar është gjithmonë një klik larg.</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/icon2.jpg" alt="">
+                    <h2 class="my-4">Catch Up</h2>
+                    <p>Kapni gjithcka që keni humbur. Aksesoni transmetimet e mëparshme fare lehtë.</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/icon3.jpg" alt="">
+                    <h2 class="my-4">Regjistro</h2>
+                    <p>Regjistro transmetimet live dhe ndiqi në kohën dhe momentit që të përshtatet.</p>
+                </div>
+            </div>
+            <div class="row text-center my-5">
+                <div class="col-4 mt-3">
+                    <img src="./img/icon4.jpg" alt="">
+                    <h2 class="my-4">Video on Demand</h2>
+                    <p>Një librari e gjërë më filma dhe seriale gati për t’u zgjedhur falas.</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/icon5.jpg" alt="">
+                    <h2 class="my-4">Shiko Njëkohësisht</h2>
+                    <p>Shiko nga tre pajisje njëkohësisht. Akseso One TV nga TV, Laptop, Tablet apo Smartphone juaj.</p>
+                </div>
+                <div class="col-4">
+                    <img src="./img/icon6.jpg" alt="">
+                    <h2 class="my-4">Kontrolli Prindëror</h2>
+                    <p>Përvojë e sigurtë dhe e mbrojtur ndaj përmbajtjeve të papërshtatshme për fëmijët tuaj.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="button">
+                <a href="" class="text-white">Ndiq Tutorialet</a>
+            </button>
+        </div>
+    </section>
+
+    <section class="py-lg-1 my-lg-1">
+        <div class="container">
+            <div class="img-container text-center">
+                <img src="./img/family-image.jpg" alt="">
+            </div>
+            <div class="img-text py-lg-1">
+                <div class="row my-lg-4 py-4 py-lg-0">
+                    <div class="col">
+                        Zgjidh planin tënd
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-6">
+                        Eksploro platformat TV që të përshtaten në kombinim me planet e internetit Fibër.
+                    </div>
+                    <div class="col-3">
+                        <button class="button1">
+                            <a href="">Shiko më shumë</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4 my-md-3 py-lg-5 my-lg-5">
+        <div class="container">
+            <div class="img-container1 text-center">
+                <img src="./img/devices.jpg" alt="">
+            </div>
+            <div class="devices-text text-center my-4 py-4">
+                <h1 class="headertext">TV Kudo dhe Kurdo</h1>
+                <p class="subheadertext my-2">Shkarko ONE TV në smartphone, tablet apo shfletuesin web dhe shiko filma seriale dhe cdo program kudo dhe kurdo nga 3 pajisje njëkohësisht. Merr dekoderin Android Box Amigo 7X, krijo profilin tënd dhe kontrollo me një telekomandë të vetme Televizorin dhe platformën TV!</p>
+            </div>
+            <div class="button-container row">
+                <button class="button1 col-3">Browser Desktop</button>
+                <button class="button1 col-3">iOS Mobile</button>
+                <button class="button1 col-3">Android Mobile</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="flex justify-center">
+        <div class="container questions">
+        <div class="flex flex-col w-11/12 py-8 md:px-12">
+            <h1 class="faqheader text-center md:text-start">
+                Pyetje të Shpeshta
+            </h1>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Përse duhet të bëhem pjesë e kësaj platforme? Cila është risia?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Me ONE TV, ju e ktheni TV tuaj ne SMART. Me funksionalitet e reja ju keni mundesi ti ndiqni programet tuaja ne cdo moment sipas nevojave tuaja.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Si mund të bëhem pjesë e kësaj platforme?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Ju mund te drejtoheni ne cdo dyqan ONE, per te kryer abonimin tuaj, merni ne dorezim pajisjen Android dhe pas aktivizimit do te perfitoni te gjitha funksionalitet e reja.
+
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Si bëhet instalimi i pajisjes?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    ONE ju mundeson qe nje Teknik t’ju vizitoje ne ambjentet e shtepise suaj per t’ju suportuar me aktivizimin e sherbimit pasi keni caktuar takimin ne momentin e aktivizimit te kontrates.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	A duhet të kem vetëm internetin e kompanisë One për ta përdorur platformën?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Po, ju duhet te jeni te lidhur me Internetin fiks te ONE per te perdorur sherbimin ne TV me dekoder, dhe me internetin mobile te ONE per ta perdorur nga laptopi. Nga pajisjet celulare ose tablet ju mund te lundroni me internetin e ONE.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Si mund të shoh një moment të dytë një emision live që ka mbaruar së transmetuari?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Me ONE TV, ju keni deri ne 30 kanale me funksionalitet Catch-up qe ju mundeson te riktheheni mbrapa ne kohe, deri 72 ore, per te pare programet tuaja te prefereruara.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Cilat kanale përfshihen në catch-up?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Per paketen DGA: Top Channel, TV KLAN, News 24, T HD, Film Aksion, Syri TV, Film Autor, ABC News, Explorer Natyra, EuroNews Albania, MAX, Film Drame, Film Hits, GOLD HD, Film Komedi. Per paketen TRING: 3 Plus, ABC News, Jolly HD, Kanal D Drama, Living, Muse, News 24,Tring Comedy, Tring Life, Tring Max,Tring Novelas, Tring Shqip, Tring Super, Tring Fantasy, Vizion +.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Sa minuta ose orë mund të bëj një regjistrim i kanalit?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Ju keni mundesi te regjistroni deri ne 10 ore programacion, I cili eshte I disponueshem per 30 dite. Pas ketij afati, video do te fshihet.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Çfarë do të thotë kontroll prindëror?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Ju mund te percaktoni vete kohen sa gjate mund te rrije nje femije para TV nen modalitetin e Kontrollit prinderor, si edhe te percaktoni paraprakisht vleresimin e programeve te lejuara qe nje femije mund te ndjeke gjate ketij modaliteti.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Sa pajisje mund të perdor me One TV?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Ju mund te aksesoni sherbimin nga TV kryesor I lidhur me dekoderin. Gjithashtu mund ta aksesoni dhe nga 2 burime te tjera si nga Interneti, nga aparati juaj cellular ose tablet Android/iPhone.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Ku mund ta gjej kodin pin?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Kodi PIN do t’ju dergohet me SMS, por ju mund te kontaktoni Kujdesin ndaj Klientit ne cdo moment nese e keni harruar ose fshire.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Çfarë është VoD dhe çfarë përmban?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    VOD (Video on Demand) eshte nje sherbim qe ju lejon te shikoni filma ose seriale sipas disponibilitetit tuaj. Ju mund te perzgjidhni mes zhanreve te ndryshme duke perdorur filtrat e ofruar. Aktualisht ky sherbim ofrohet vetem per abonentet TRING.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	A mund të shoh njëkohësisht kur logohem në dy /ose më shumë pajisje të ndryshme?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Po, ju mund te ndiqni programacion te ndryshem ne secilen prej pajisjeve active.
+                </div>
+            </div>
+    
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	A kam limitim për ta përdorur në ambjente dhe pajisje të ndryshme kur leviz në Shqipëri ose nëpër Botë?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Po, ky sherbim ofrohet vetem Brenda kufijve te Shqiperise dhe I lidhur me rrjetin ONE.
+                </div>
+            </div>
+
+            <div class="nebula-faq font-medium bg-[#F5F5F5] px-4 md:px-6 py-2 md:py-4 rounded-md mb-2 cursor-pointer hover:scale-105 transition duration-300">
+                <div class="flex items-center">
+                    <div class="flex-1 text-xs md:text-base">
+                        ▶︎	Në cilën gjuhë ofrohet shërbimi?
+                    </div>
+                     
+                </div>
+                <div class="nebula-answer  d-none text-gray-700 mt-1 text-xs md:text-sm">
+                    Gjuha automatike e sherbimit eshte Anglisht. Ju mund te ndryshoni gjuhen ne cdo moment tek Settings/Cilesimet ne Android HomeScreen ne Shqip dhe sherbimi ONE TV do te perditesohet automatikisht ne Shqip. Gjithashtu, per pajisjet SMART, nese gjuha kryesore e sistemit eshte ne Shqip, edhe aplikacioni do te shfaqet ne Shqip.
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="flex flex-col md:px-12 bg-[#fff] details">
+            <div class="flex-1 text-xs md:text-base">
+                <h1 class="font-bold mb-2">Detaje:</h1>
+                <ul class="font-light list">
+                    <li>Instalimi për të gjithë abonentët e rinj në paketat One Ultra Fiber është 1,500 Lekë.
+                    </li>
+                    <li>Për klientët e rinj, modemi jepet në përdorim pa asnjë pagesë shtesë për kontratat 12 dhe 24 mujore.
+                    </li>
+                    <li>
+                        Shërbimi ofrohet në teknologjinë Fibër.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerTop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footerMenu text-center text-md-left">
+                            <ul class="d-lg-flex">
+                                <li>
+                                    <span class="footerTitle">One Albania</span>
+                                    <ul>
+                                        <li><a href="https://www.one.al/Store_Locator_Test">Dyqanet</a></li>
+                                        <li><a href="https://www.one.al/informacione-per-konsumatoret">Njoftime për
+                                                Konsumatorët</a></li>
+                                        <li><a href="https://www.one.al/njoftime-prokurimi">Njoftime Prokurimi</a></li>
+                                        <li><a href="https://www.one.al/Pyetje_te_shpeshta_mbi_sherbimet">Pyetje të
+                                                shpeshta për unifikimin e rrjeteve</a></li>
+                                        <li><a
+                                                href="https://www.one.al/CompanyKarriera/Procesi_i_rekrutimit">Karriera</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="footerTitle">Profilet</span>
+                                    <ul>
+                                        <li><a href="https://www.one.al/">Individ</a></li>
+                                        <li><a href="https://www.one.al/business">Biznesi</a></li>
+                                        <li><a href="https://www.one.al/company">Kompania</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="footerTitle">Internet &amp; TV</span>
+                                    <ul>
+                                        <li><a href="https://www.one.al/Telelfoni_fikse_0">Telefoni Fikse</a></li>
+                                        <li><a href="https://www.one.al/Planet_tarifore_fikse">Planet tarifore fikse</a>
+                                        </li>
+                                        <li><a href="https://www.one.al/ONE_FIX">One Fix</a></li>
+                                        <li><a href="https://www.one.al/ONE_FIX_PLANS">Planet One Fix</a></li>
+                                        <li><a href="https://www.one.al/one-fix-tariffs">Tarifat dhe Zonat</a></li>
+                                        <li><a href="https://www.one.al/IPTV_footer">Plane të vjetra IPTV</a></li>
+                                        <li><a href="https://www.one.al/Sherbimi_Freeze">Shërbimi Freeze</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="footerTitle">Business Fix</span>
+                                    <ul>
+                                        <li><a href="https://www.one.al/BUSINESS/BUSINESS_FIX/ONE_FIX">One Fix</a></li>
+                                        <li><a href="https://www.one.al/one-fix-tariffs#tabvbp-tab-60-1">Tarifat dhe
+                                                Zonat</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="footerTitle">Të përgjithshme</span>
+                                    <ul>
+                                        <li><a
+                                                href="https://www.one.al/CompanyKOMPANIAInformacione_Ligjore/Kodi_i_privatesise">Kodi
+                                                i privatësisë</a></li>
+                                        <li><a
+                                                href="https://www.one.al/CompanyKOMPANIAInformacione_Ligjore/Termat_dhe_Kushtet">Terma
+                                                &amp; Kushte</a></li>
+                                        <li><a href="https://www.one.al/Terma_dhe_Kushte_My_One">Terma &amp; Kushte My
+                                                One</a></li>
+                                        <li><a href="https://www.one.al/Menyrat_e_pageses">Mënyrat e pagesës</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 text-right d-none d-md-block">
+                        <img class="img-fluid" src="https://www.one.al/images/logo-tal.svg" width="60" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-md-none">
+                        <img class="img-fluid" src="https://www.one.al/images/logo-tal.svg" width="60" alt="">
+                    </div>
+                    <div class="copyrights d-none d-md-block">
+                        <p class="mb-0">Copyright © 2022 All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-social d-flex">
+                        <div class="footer-social d-flex">
+                            <a href="http://www.facebook.com/one.albania"><i class="icofont-facebook test"></i></a>
+                            <a href="https://instagram.com/one.telecommunications?igshid=1xq52qe4z6a22"><i
+                                    class="icofont-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/one-albania/mycompany/"><i
+                                    class="icofont-linkedin"></i></a>
+                            <a href="https://www.youtube.com/channel/UCg_sbu8sajDlkeURlipd9_A/"><i
+                                    class="icofont-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://www.one.al/public_portal/react/dist/js/jquery.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/bootstrap.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/owl.carousel.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/owl.rows.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/jquery.dataTables.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/dataTables.buttons.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/buttons.bootstrap4.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/pdfmake.min.js"></script>
+    <script type="text/javascript" async=""
+        src="https://livechatv2.chat2desk.com/packs/application.1a5077c0903ab56c98e6.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/vfs_fonts.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/buttons.html5.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/buttons.print.min.js"></script>
+    <script src="https://www.one.al/public_portal/react/dist/js/custom.js"></script>
+    <script src="https://www.one.al/public_portal/react/config/configApp.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD22Kzk4oO79JbEGb-gd59ptDvhedNgD6Q&amp;libraries=places"></script>
+    <script src="https://www.one.al/public_portal/react/static/js/2.37b630f7.chunk.js"></script>
+    <script src="https://www.one.al/public_portal/react/static/js/main.c931631f.chunk.js"></script>
+
+</body>
+
